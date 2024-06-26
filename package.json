@@ -1,0 +1,29 @@
+{
+  "name": "solana-pump-fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bundler.js",
+    "balance": "node balance.js",
+    "balancet": "node balancet.js",
+    "microbuy": "node microbuy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.8",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.91.8",
+    "axios": "^1.6.8",
+    "bs58": "^5.0.0",
+    "readline": "^1.3.0",
+    "readline-sync": "^1.4.10",
+    "ws": "^8.17.1"
+  }
+}
